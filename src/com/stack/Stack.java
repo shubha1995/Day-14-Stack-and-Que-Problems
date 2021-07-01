@@ -34,5 +34,20 @@ public class Stack {
 		
 	}
 
+	public boolean peek(int data) {
+		 
+        if (top != null) {
+           System.out.println(top.data); 
+        }
+        else {
+            System.out.println("Stack is under flow");
+            
+        }
+		return false;
+		
+	}
 
-}
+
+		
+	}
+

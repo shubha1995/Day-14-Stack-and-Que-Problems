@@ -4,13 +4,16 @@ public class MainStack {
 	public static void main(String[] args) {
 		System.out.println("Welcome to Stack and Que Problems");
 		
-		Stack stack = new Stack();
+		Queue queue = new Queue();
 		
-		stack.push(70);
-		stack.push(30);
-		stack.push(56);
+		queue.enQueue(56);
+		queue.enQueue(30);
+		queue.enQueue(70);
 		
-		stack.print();
+	
+		queue.print();
+		
+		
 	}
 
 }
